@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: large;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            vertical-align: center;
+            text-align: center;
+            margin-bottom: -4px; /* Yazı ile altındaki kutular arasındakş ekstra mesafeden kurtulamk için */
+            margin-top: 0px;
+        }
+        div#KutuKapsa{
+            width: 400px;
+            height: 510px;
+            border: 8px brown double;
+            background-color: burlywood;
+            margin: 4px;
+            display: flex;
+            flex-wrap:wrap;
+        }
+        div.BOX{
+            width:124px;
+            height:127px;
+            color: black;
+            background-color: whitesmoke;
+            text-align: center;
+            vertical-align: middle;
+            border:3px solid brown;
+            margin: 4px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            
+        }
+        div.inBox{
+            width: 38px; /* border nedeniyle 40 olmaz 40 yaparsan sığmaz */
+            height: 39px;
+            color: black;
+            background-color: whitesmoke;
+            text-align: center;
+            line-height: 38px; /* dikey ortalamak için ekledim */
+            border: 1px solid  black;
+        }
+        .sudoku-board-cell {
+            display: inline-block;
+            position: relative;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="KutuKapsa">
+        
+        <h1><em>M.Suleyman Guney's Sudoku Project</em></h1>
+        <br>
+        
+        <div class="BOX">
+            
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+        <div class="BOX">
+            <div class="inBox">1</div>
+            <div class="inBox">2</div>
+            <div class="inBox">3</div>
+            <div class="inBox">4</div>
+            <div class="inBox">5</div>
+            <div class="inBox">6</div>
+            <div class="inBox">7</div>
+            <div class="inBox">8</div>
+            <div class="inBox">9</div>
+        </div>
+    </div>    
+</body>
+</html>
