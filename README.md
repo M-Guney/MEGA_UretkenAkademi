@@ -1,4 +1,7 @@
 # MEGA_UretkenAkademi
+![image](https://github.com/M-Guney/MEGA_UretkenAkademi/assets/129216053/41124f13-b82d-4a30-aef2-8b5d50f7ea5a)
+
+
 
 ![image](https://github.com/M-Guney/MEGA_UretkenAkademi/assets/129216053/b0dda5c8-b15f-4f1b-85c7-1d2d59223b11)
 
